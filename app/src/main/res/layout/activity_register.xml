@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/RegisterLoginText"
+        android:layout_width="251dp"
+        android:layout_height="61dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Регистрация"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/RegisterPhoneInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegisterLoginText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="47dp"
+        android:hint="Номер телефона"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/RegisterPasswordInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegisterLoginText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="46dp"
+        android:hint="Пароль"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegisterPasswordInput"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:text="Зарегестрироваться"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/GoToAvtorizacia"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/RegisterButton"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:text="Есть аккунт"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/RegisterUsernameInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegisterLoginText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="47dp"
+        android:hint="Имя пользователя"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
